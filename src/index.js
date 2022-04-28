@@ -1,8 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  document.querySelector('form').addEventListener('submit', (e) => {
+  let form = document.querySelector('form')
+  form.addEventListener('submit', (e) => {
     e.preventDefault();
     buildToDo(e.target.new_task_description.value);
+    form.reset();
   })
 });
 
@@ -14,7 +16,6 @@ function buildToDo(todo) {
   pTag.textContent = todo;
   pTag.append(btn);
   document.querySelector('#tasks').append(pTag);
-  
 }
 
 function handleDelete(e) {
