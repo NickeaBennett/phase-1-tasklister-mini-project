@@ -8,6 +8,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function handleToDo(todo) {
   let p = document.createElement('p');
+  let btn = document.createElement('button');
+  btn.textContent = "X";
   p.textContent = todo;
-  console.log(p);
+  p.append(btn);
+  document.querySelector('#tasks').append(p);
+  
 }

@@ -8,6 +8,7 @@ body {
 
 button {
   font-size: 7px;
+  margin-left: 10px;
 }
 
 #main-content {
@@ -19,14 +20,18 @@ button {
   padding: 50px; 
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
-  background:rgba(70, 72, 233, 0.75)
+  background:rgba(214, 184, 11, 0.75)
 }
 
 #list {
   margin: 10px;
   border: 1px solid #333;
   background: rgba(255, 255, 255, 0.75);
-  padding: 15px 20px 18px 18px;
+  padding: 25px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+#tasks {
+  padding-inline-start: 0px;
 }
