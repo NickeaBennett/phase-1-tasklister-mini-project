@@ -9,6 +9,7 @@ body {
 button {
   font-size: 7px;
   margin-left: 10px;
+  padding: 5px;
 }
 
 #main-content {
