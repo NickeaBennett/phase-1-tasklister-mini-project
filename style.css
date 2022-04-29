@@ -8,8 +8,8 @@ body {
 
 button {
   font-size: 7px;
+  padding: 10px;
   margin-left: 10px;
-  padding: 5px;
 }
 
 #main-content {
@@ -18,7 +18,7 @@ button {
   align-items: center;
   flex-direction: column;
   border: 1px solid #333;
-  padding: 50px; 
+  padding: 25px; 
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
   background:rgba(214, 184, 11, 0.75)
@@ -35,4 +35,8 @@ button {
 
 #tasks {
   padding-inline-start: 0px;
+}
+
+p {
+  padding:  5px;
 }
